@@ -1,0 +1,153 @@
+body {
+  background-color:lavenderblush;
+  overflow: hidden;
+}
+
+.profile-margin {
+  margin-top: 80px;
+  position: absolute;
+  padding-left: 1.5%;
+}
+
+.about-background {
+  background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+}
+
+.about-image {
+  height: 100%;
+  width: 80%;
+  border-radius: 50%;
+  margin-left: 10%;
+}
+
+.text_1 {
+  animation: text1;
+}
+.text_2 {
+  animation: text2;
+}
+.text_1, .text_2 {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: absolute;
+  animation-duration: 30s;
+  animation-timing-function: steps(50, end);
+  animation-iteration-count: infinite;
+}
+.text_1::after, .text_2::after {
+  content: "|";
+  position: relative;
+  animation: caret infinite;
+  animation-duration: 20s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text2 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  
+  60%, 90% {
+    width: 21.2em;
+  }
+}
+@keyframes text1 {
+  0%, 50%, 100% {
+    width: 0;
+  }
+  10%, 40% {
+    width: 17em;
+  }
+}
+
+.aboutText-adjust{
+  margin-top: 10px;
+  margin-left: 50px;
+  font-size: 2rem;
+  font-weight: 1000px;
+  color: brown;
+}
+
+.my-name {
+ margin-top: 90px; 
+ font-size: 6rem;
+ font-weight: 1000px;
+ color:teal
+}
+
+.me {
+  margin-top: 125px; 
+  font-size: 3rem;
+  font-weight: 1000px;
+  color:red;
+ }
+
+.navbar-button-size {
+  font-size: 20px;
+}
+
+.link-style {
+  color:white;
+  text-decoration: none;
+}
+
+.hobbies-info {
+  font-size: 70px;
+  margin-top: 200px;
+  margin-left: 20px;
+  color:darkmagenta;
+  position: absolute;
+}
+
+.hobbies-list {
+  font-size: 40px;
+  margin-top: 130px;
+  margin-left: 12rem;
+  margin-right: 100px;
+  color:darkslategrey;
+}
+
+.hobbies-background {
+  background-image: url("/static/images/pen.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  position: relative;
+}
+
+.skills-info {
+  font-size: 70px;
+  margin-top: 200px;
+  margin-left: -7rem;
+  color:mediumvioletred;
+  position: relative;
+}
+
+.skills-list {
+  font-size: 15px;
+  margin-top: 5px;
+  margin-left: 17rem;
+  color:indigo;
+}
+
+.skills-background {
+  background-image: url("/static/images/skills.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 10rem;
+  position: relative;
+}
+
+.profile-section-background {
+  
+}
+
+.profile-section-margin {
+  margin-top: 230px;
+  margin-left: 0px;
+}
+
+.anchor-in-profile {
+  text-decoration: none;
+}
