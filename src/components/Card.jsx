@@ -19,7 +19,7 @@ function ProfileCard(props){
     const classes = useStyles();
 
   return (
-    <a href={props.redirectLink} className="anchor-in-profile">
+    <a href={props.redirectLink} className="anchor-in-profile" target="_blank">
       <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
