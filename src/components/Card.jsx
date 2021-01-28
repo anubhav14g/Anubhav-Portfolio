@@ -20,12 +20,11 @@ function ProfileCard(props){
 
   return (
     <a href={props.redirectLink} className="anchor-in-profile" target="blank">
-      <Card className={classes.root}>
+      <Card className="{classes.root} card-animation">
       <CardActionArea>
         <CardMedia
           className={classes.media}
           image={props.imageSrc}
-          title="Contemplative Reptile"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
