@@ -6,7 +6,28 @@ function Skills(){
         <div className="{classes.root} profile-margin skills-background">
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6}>
-          <h1 className="skills-info">Skills: </h1>
+          <h1 className="skills-info">
+          <div class="skills-info-stage">
+              <div class="skills-info-wrapper">
+                  <div class="skills-info-slash"></div>
+                  <div class="skills-info-sides">
+                      <div class="skills-info-side"></div>
+                      <div class="skills-info-side"></div>
+                      <div class="skills-info-side"></div>
+                      <div class="skills-info-side"></div>
+                  </div>
+                  <div class="skills-info-text">
+                      <div class="skills-info-text--backing">Skills</div>
+                      <div class="skills-info-text--left">
+                          <div class="skills-info-inner">Skills</div>
+                      </div>
+                      <div class="skills-info-text--right">
+                          <div class="skills-info-inner">Skills</div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          </h1>
         </Grid>
         <Grid item xs={12} sm={6}>
           <ul className="skills-list">
