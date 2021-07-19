@@ -18,6 +18,12 @@ function Profile(){
         <Grid item xs={6} sm={3}>
         <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/codeforces.png"} name="Codeforces" desc="anubhav1408sks" redirectLink="https://codeforces.com/profile/anubhav1408sks"/>
         </Grid>
+        <Grid item xs={6} sm={3}>
+        <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/linkedin.png"} name="Linkedin" desc="" redirectLink="https://www.linkedin.com/in/anubhav-goyal-108a85194/"/>
+        </Grid>
+        <Grid item xs={6} sm={3}>
+        <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/hackerank.jpg"} name="HackerRank" desc="anubhavg_7" redirectLink="https://www.hackerrank.com/anubhavg_7"/>
+        </Grid>
       </Grid>
     </div>
     );

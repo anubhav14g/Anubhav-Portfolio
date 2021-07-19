@@ -141,8 +141,13 @@ body {
 
 
 .profile-section-margin {
-  margin-top: 230px;
+  margin-top: 100px;
   margin-left: 0px;
+}
+
+.experience-section-margin {
+  margin-top: 90px;
+  margin-left: 150px;
 }
 
 .anchor-in-profile {
@@ -793,4 +798,8 @@ body {
   100% {
     transform: translateY(-101%);
   }
+}
+
+.display-block{
+  display: block;
 }
