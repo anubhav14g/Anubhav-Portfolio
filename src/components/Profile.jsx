@@ -10,10 +10,10 @@ function Profile(){
           <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/github.png"} name="Github" desc="anubhav14g" redirectLink="https://github.com/anubhav14g"/>
         </Grid>
         <Grid item xs={6} sm={3}>
-        <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/codechef.jpg"} name="Codechef" desc="anubhav_14g" redirectLink="https://www.codechef.com/users/anubhav_14g"/>
+        <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/codechef.jpg"} name="Codechef" desc="ganubhav" redirectLink="https://www.codechef.com/users/ganubhav"/>
         </Grid>
         <Grid item xs={6} sm={3}>
-        <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/leetcode.jpg"} name="Leetcode" desc="anubhav_14g" redirectLink="https://leetcode.com/anubhav_14g"/>
+        <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/leetcode.jpg"} name="Leetcode" desc="dark_storm14" redirectLink="https://leetcode.com/dark_storm14"/>
         </Grid>
         <Grid item xs={6} sm={3}>
         <ProfileCard imageSrc={process.env.PUBLIC_URL+"/static/images/codeforces.png"} name="Codeforces" desc="anubhav1408sks" redirectLink="https://codeforces.com/profile/anubhav1408sks"/>

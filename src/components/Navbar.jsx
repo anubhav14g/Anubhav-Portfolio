@@ -37,6 +37,7 @@ function Navbar(){
             <Button color="inherit" size="large"><Link to="/hobbies" className="link-style">Hobbies</Link></Button>
             <Button color="inherit" size="large"><Link to="/profile" className="link-style">Profile</Link></Button>
             <Button color="inherit" size="large"><Link to="/experiences" className="link-style">Experiences</Link></Button>
+            <Button color="inherit" size="large"><a href="https://anubhavg.hashnode.dev/" className="link-style" target="blank">My Blogs</a></Button>
             </Toolbar>
         </AppBar>
         </div>

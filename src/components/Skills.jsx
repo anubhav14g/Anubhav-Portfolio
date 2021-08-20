@@ -36,11 +36,10 @@ function Skills(){
             <h1><li>Algorithms</li></h1>
             <h1><li>React.js</li></h1>
             <h1><li>Node.js</li></h1>
-            <h1><li>Passport.js</li></h1>
             <h1><li>Mongodb</li></h1>
+            <h1><li>SQL</li></h1>
             <h1><li>HTML</li></h1>
             <h1><li>CSS</li></h1>
-            <h1><li>Javascript</li></h1>
           </ul>
         </Grid>
       </Grid>
