@@ -5,6 +5,7 @@ import Profile from "./Profile.jsx";
 import Skills from "./Skills.jsx";
 import Hobbies from "./Hobbies.jsx";
 import Experiences from "./Experiences.jsx";
+import Projects from "./Projects.jsx";
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom";
 
 function App(){
@@ -18,6 +19,7 @@ function App(){
                     <Route path="/skills" component={Skills}/>
                     <Route path="/hobbies" component={Hobbies}/>
                     <Route path="/experiences" component={Experiences}/>
+                    <Route path="/projects" component={Projects}/>
                 </Switch>
             </div>
         </Router>
